@@ -1,0 +1,16 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/">
+<ShortName>大田区立図書館 タイトル</ShortName>
+<Description>大田区立図書館 書籍タイトル検索 出版年順（降順）</Description>
+<InputEncoding>Shift_JIS</InputEncoding>
+<Url type="text/html" method="POST" template="http://www.lib.city.ota.tokyo.jp/clis/search">
+  <Param name="BOOK" value="ON"/>
+  <Param name="ITEM1" value="AB"/>
+  <Param name="KEY1" value="{searchTerms}"/>
+  <Param name="COMP1" value="3"/>
+  <Param name="COND" value="1"/>
+  <Param name="SORT" value="5"/>
+  <Param name="MAXVIEW" value="50"/>
+  <Param name="sourceid" value="Mozilla-search"/>
+</Url>
+<SearchForm>http://www.lib.city.ota.tokyo.jp/search2.html</SearchForm>
+</SearchPlugin>
