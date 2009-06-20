@@ -9,6 +9,7 @@
   <Param name="COMP1" value="3"/>
   <Param name="COND" value="1"/>
   <Param name="SORT" value="5"/>
+  <Param name="MATER" value="400"/>
   <Param name="MAXVIEW" value="50"/>
   <Param name="sourceid" value="Mozilla-search"/>
 </Url>
